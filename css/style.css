@@ -1,0 +1,751 @@
+/*globle clases start*/
+
+
+/*font start*/
+
+@font-face {
+    font-family:"Raleway-ExtraBold";
+    
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+    font-family:"Raleway-Medium";
+    
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family:"Aleo-Regular";
+    
+    src: url(../fonts/Aleo-Regular.otf);
+}
+@font-face {
+    font-family:"Raleway-Bold";
+    
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family:"Raleway-Light";
+    
+    src: url(../fonts/Raleway-Light.ttf);
+}
+@font-face {
+    font-family:"Raleway-SemiBold";
+    
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family:"Raleway-Regular";
+    
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family:"SF-Pro-Display-Bold";
+    
+    src: url(../fonts/SF-Pro-Display-Bold.otf);
+}
+@font-face {
+    font-family:"SF-Pro-Display-Heavy";
+    
+    src: url(../fonts/SF-Pro-Display-Heavy.otf);
+}
+@font-face {
+    font-family:"SF-Pro-Display-Semibold";
+    
+    src: url(../fonts/SF-Pro-Display-Semibold.otf);
+}
+@font-face {
+    font-family:"SF-Pro-Display-Regular";
+    
+    src: url(../fonts/SF-Pro-Display-Regular.otf);
+}
+/*font start end*/
+html,body{
+    overflow-x: hidden;
+}
+.buton{
+     background: #df4009;
+    font-weight: 500;
+    width: 68%;
+    font-size: 19px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 11px;
+    margin: auto;
+    color: white;
+}
+
+/*globle class end*/
+
+.gray{
+    background-color: #eef2f3;
+}
+.slideInLeft{
+    animation-duration: 2s!important;
+}
+span.fa.fa-angle-right {
+    font-size: 21px;
+    font-weight: 900;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.angle-down {
+    font-size: 16px!important;
+    margin-left: 2px!important;
+    color: #df4009;
+}
+.prog{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.pro-1{
+    width: 20%;
+    height: 20px;
+    background-color: #a9b7b9;
+    float: left;
+     border-left: 1px solid white;
+}
+.pro-2{
+     background-color: #a9b7b9;
+    width: 20%;
+    height: 20px;
+     float: left;
+     border-left: 1px solid white;
+}
+.pro-3{
+     background-color: #a9b7b9;
+    width: 20%;
+    height: 20px;
+     float: left;
+      border-left: 1px solid white;
+}
+.pro-4{
+     background-color: #a9b7b9;
+    width: 20%;
+    height: 20px;
+     float: left;
+      border-left: 1px solid white;
+}
+.pro-5{
+     background-color: #a9b7b9;
+    width: 20%;
+    height: 20px;
+     float: left;
+      border-left: 1px solid white;
+}
+
+.prog1{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    text-align: center;
+}
+.pro-11{
+    width: 20%;
+    height: 20px;
+    background-color: #a9b7b9;
+    float: left;
+     border-left: 1px solid white;
+}
+.pro-22{
+     background-color: #a9b7b9;
+    width: 20%;
+    height: 20px;
+     float: left;
+     border-left: 1px solid white;
+}
+.pro-33{
+     background-color: #a9b7b9;
+    width: 20%;
+    height: 20px;
+     float: left;
+      border-left: 1px solid white;
+}
+.pro-44{
+     background-color: #a9b7b9;
+    width: 20%;
+    height: 20px;
+     float: left;
+      border-left: 1px solid white;
+}
+.pro-55{
+     background-color: #a9b7b9;
+    width: 20%;
+    height: 20px;
+     float: left;
+      border-left: 1px solid white;
+}
+/*pages hide*/
+.red-text{
+    color: #df4009;
+     font-family:"SF-Pro-Display-Heavy";
+}
+#page-5{
+    display: none;
+}
+#page-2{
+    display: none;
+}
+#page-3{
+    display: none;
+}
+#page-4{
+    display: none;
+}
+/*header css*/
+.header {
+    
+    background: linear-gradient(90deg, #f6d64b 75%, white 100%);
+}
+.header-area{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.border-right{
+    border-right: 2px solid white!important;
+}
+.logo-img{
+    width: 20%;
+    margin-left: 2%;
+}
+.menu-bar{
+    margin-top: 9px;
+    width: 23%;
+}
+
+
+/*page-1 css*/
+
+.tegline h6{
+    padding-top: 8%;
+    padding-bottom: 4%;
+    font-size: 20px;
+    color: #df4009;
+    font-family:"SF-Pro-Display-Bold";
+}
+.content h4{
+     font-size: 24px;
+    color: #df4009;
+    margin-bottom: 24px;
+     font-family:"SF-Pro-Display-Heavy";
+}
+.content p{
+    font-size: 15px;
+     font-family:"SF-Pro-Display-Semibold";
+}
+.buton-text{
+    margin-top: 12px;
+    font-size: 13px;
+    font-family:"SF-Pro-Display-Regular";
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.img-square-wrapper {
+    width: 24%;
+    text-align: center;
+}
+
+
+.card-title {
+    font-size: 17px;
+        margin-bottom: 6px;
+        font-family:"SF-Pro-Display-Heavy";
+}
+img.ff {
+    width: 70%;
+    background: white;
+    margin-top: 11px;
+    padding: 10%;
+    border-radius: 50%;
+}
+.card {
+    background: transparent;
+    border: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.card-footer {
+    border-top: 0px;
+    border-top: none;
+    background: transparent;
+}
+p.card-text {
+    font-size: 14px;
+    font-family:"SF-Pro-Display-Regular";
+}
+.font-h{
+        font-family:"SF-Pro-Display-Heavy";
+}
+.font-r{
+     font-family:"SF-Pro-Display-Regular";
+}
+.card-body {
+    padding: 15px 6px 10px 6px;
+}
+.progresss{
+    
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 8%;
+}
+.order-now {
+    padding-top: 11%;
+    padding-bottom: 2%;
+}
+.next-page{
+      font-family:"SF-Pro-Display-Semibold";
+}
+/*page 2 css*/
+.page-2-content {
+    padding: 28px 8px 28px 8px;
+}
+.page-2-content h5 {
+   font-family:"Raleway-Bold";
+}
+.page-2-content h6 {
+    margin-bottom: 4px;
+    font-size: 15px;
+       font-family:"Raleway-Bold";
+}
+.page-2-content p {
+     font-size: 13px;
+     font-family:"Raleway-Regular";
+}
+.R-text{
+    font-family:"Raleway-Bold"!important;
+      color: #df4009;
+}
+.shedule{
+     font-family:"SF-Pro-Display-Semibold";
+}
+i.fa.fa-minus {
+    float: right;
+    color: #df4009;
+    margin-top: 5px;
+    font-size: 26px;
+    margin-right: 19px;
+}
+
+
+/*page 3 css*/
+
+.popop-b {
+     width: 72%;
+    background: white!important;
+    border: 1px solid #df400a;
+    border-radius: 11px!important;
+    font-size: 14px!important;
+    color: black;
+    box-shadow: none!important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 51px;
+    font-family:"Raleway-Medium";
+}
+.popup-p{
+    font-family:"Raleway-Medium";
+}
+img.sun {
+   padding-right: 9px;
+    width: 25px;
+    margin-top: -2px;
+}
+.work-space {
+    padding-right: 22px;
+}
+h5.modal-title {
+    padding-bottom: 7%;
+    padding-top: 9%;
+       font-family:"Raleway-Bold";
+}
+
+.s-next{
+       font-family:"SF-Pro-Display-Semibold";
+    margin-bottom: 15%;
+    width: 56%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.s-next-2{
+ 
+    margin-bottom: 15%;
+    width: 56%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+hr{
+    border-bottom: 1px solid black;
+}
+.staus-1{
+        padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+.staus-2{
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+.staus-2 h5,.staus-1 h5 {
+    font-size: 17px;
+     font-family:"SF-Pro-Display-Heavy";
+}
+.staus-2 p,.staus-1 p {
+    font-size: 15px;
+       font-family:"SF-Pro-Display-Regular";
+}
+.final{
+    margin-top: 10%;
+    font-family:"SF-Pro-Display-Semibold";
+}
+.check-text{
+        margin-left: 17px;
+}
+input[type="checkbox"] {
+    margin-left: 7px;
+}
+/*top body css*/
+/* Bootstrap 4 text input with search icon */
+
+.top-body{
+    background-image: url("../img/bg-main.jpg");
+}
+ .has-search {
+    width: 26%;
+    text-align: center;
+    /* border: 2px solid; */
+    background: white;
+    box-shadow: -3px 3px 5px 0px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+        border:none!important;
+            text-align: center;
+                padding-top: 13px;
+    font-size: 15px;
+        background: white;
+}
+.form-control:focus {
+
+    box-shadow: none;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+   padding-top: 9px;
+    padding-left: 22%;
+    font-size: 23px;
+    color: #666666;
+
+}
+
+
+/*footer css*/
+
+#footer {
+    background: #eef2f3;
+        padding-top: 3%;
+    padding-bottom: 1%;
+} 
+#footer p {
+    margin-bottom: 5px;
+    font-size: 17px;
+     font-family:"Raleway-Regular";
+}
+#footer h4 {
+   font-family:"Raleway-Bold";
+}
+.site-link {
+    font-size: 13px!important;
+    margin-top: 9%;
+}
+/*css for  different screens*/
+
+/*----------------------------media queries-----------------*/
+@media only screen and (min-width: 2001px) and (max-width: 2560px){
+
+}
+@media only screen and (min-width: 1650px) and (max-width: 2000px){
+
+}
+
+@media screen and (max-width:1024px) {
+.has-search {
+    width: 32%;
+}
+}
+
+@media screen and (max-width:768px) {
+.has-search {
+    width: 43%;
+}
+#footer p {
+
+    font-size: 15px;
+    }
+.site-link {
+    font-size: 13px!important;
+  
+}
+}
+
+@media screen and (max-width: 425px) {
+.has-search {
+    width: 74%;
+}
+.header-area {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.logo-img {
+        width: 51%;
+}
+.menu-bar {
+    margin-top: 4px;
+    width: 40%;
+}
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content h4 {
+    font-size: 22px;
+    }
+    .content p {
+    font-size: 14px;
+}
+.order-now {
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+.page-2-content {
+    padding: 28px 12px 28px 12px;
+}
+.page-2-content h5 {
+    font-family: "Raleway-Bold";
+    margin-bottom: 33px;
+}
+img.sun {
+    padding-right: 9px;
+    width: 29px;
+    margin-top: -2px;
+}
+.popup-p {
+   
+    font-size: 13px;
+}
+.work-space {
+    padding-right: 14px;
+}
+.staus-1 {
+   
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.staus-2 {
+   
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.staus-2 h5, .staus-1 h5 {
+    font-size: 14px;
+
+}
+.staus-2 p, .staus-1 p {
+    font-size: 13px;
+    font-family: "SF-Pro-Display-Regular";
+}
+#footer {
+    background: #eef2f3;
+    padding-top: 6%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 4%;
+}
+section#footer h4 {
+    font-size: 19px;
+}
+#footer p {
+    font-size: 14px;
+}
+.site-link {
+    font-size: 12px!important;
+
+}
+.card {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
+@media screen and (max-width: 414px) {
+
+    }
+@media screen and (max-width: 375px) {
+.has-search {
+    width: 84%;
+}
+.logo-img {
+    width: 49%;
+}
+.menu-bar {
+    margin-top: 4px;
+    width: 36%;
+    margin-right: 8px;
+}
+.buton {
+  
+    font-size: 17px;
+    }
+
+.content h4 {
+    font-size: 19px;
+}
+.img-square-wrapper {
+    width: 30%;
+    text-align: center;
+}
+.card-title {
+    font-size: 16px;
+    }
+    section#footer h4 {
+    font-size: 17px;
+}
+.page-2-content h5 {
+
+    font-size: 19px;
+}
+i.fa.fa-minus {
+ 
+    margin-top: 1px;
+
+}
+h5.modal-title {
+    font-size: 18px;
+
+}
+#footer p {
+    font-size: 13px;
+}
+.site-link {
+    font-size: 11px!important;
+}
+}
+@media screen and (max-width: 360px) {
+.tegline h6 {
+   
+    font-size: 17px;
+}
+.card-title {
+    font-size: 15px;
+}
+.img-square-wrapper {
+    width: 36%;
+    text-align: center;
+}
+p.card-text {
+    font-size: 13px;
+}
+.page-2-content p {
+    font-size: 12px;
+    }
+    .page-2-content h6 {
+
+    font-size: 14px;
+   
+}
+.staus-2 p, .staus-1 p {
+    font-size: 12px;
+    font-family: "SF-Pro-Display-Regular";
+}
+.staus-2 h5, .staus-1 h5 {
+    font-size: 13px;
+}
+}
+@media screen and (max-width: 320px) {
+    .has-search {
+    width: 75%;
+}
+.has-search .form-control-feedback {
+    padding-left: 8%;
+}
+.tegline h6 {
+    font-size: 15px;
+}
+.content p {
+    font-size: 11px;
+}
+.card-title {
+    font-size: 13px;
+}
+p.card-text {
+    font-size: 12px;
+}
+.font-h {
+    font-family: "SF-Pro-Display-Heavy";
+    font-size: 12px;
+}
+.font-r {
+    font-family: "SF-Pro-Display-Regular";
+    font-size: 12px;
+}
+.buton {
+    font-size: 14px;
+}
+.content h4 {
+    font-size: 17px;
+}
+}
+/* DEMO-SPECIFIC STYLES */
+
+.typewriter  {
+ 
+     color: #acacac;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+       font-size: 14px;
+        height: 50px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+
+    
+
+}
+
+/*.tick-text-2,.tick-text-3,.danger-text,.empty-text {
+    display: none;
+}*/
